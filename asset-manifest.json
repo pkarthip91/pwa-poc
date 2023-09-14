@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pwa-poc/static/css/main.87c6010a.css",
-    "main.js": "/pwa-poc/static/js/main.bc19a89a.js",
+    "main.js": "/pwa-poc/static/js/main.5a00a17a.js",
     "static/js/787.64b197b2.chunk.js": "/pwa-poc/static/js/787.64b197b2.chunk.js",
     "static/media/bg.jpg": "/pwa-poc/static/media/bg.1bd2e8e67354a8b48baf.jpg",
     "static/media/maybank-logo.png": "/pwa-poc/static/media/maybank-logo.d080d1d7ec96a9160aa3.png",
     "service-worker.js": "/pwa-poc/service-worker.js",
     "index.html": "/pwa-poc/index.html",
     "main.87c6010a.css.map": "/pwa-poc/static/css/main.87c6010a.css.map",
-    "main.bc19a89a.js.map": "/pwa-poc/static/js/main.bc19a89a.js.map",
+    "main.5a00a17a.js.map": "/pwa-poc/static/js/main.5a00a17a.js.map",
     "787.64b197b2.chunk.js.map": "/pwa-poc/static/js/787.64b197b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87c6010a.css",
-    "static/js/main.bc19a89a.js"
+    "static/js/main.5a00a17a.js"
   ]
 }
