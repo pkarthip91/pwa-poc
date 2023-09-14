@@ -3,18 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 50px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000bc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +30,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-main{
+    width: 100%;
+    height: 100vh;
+    background: url(./bg.jpg) top center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.instructions {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+output {
+  display: block;
+  color: gray;
+  margin: 32px 16px;
+  text-align: center;
+  border: 1px silver dashed;
+  padding: 16px;
+  border-radius: 16px;  
+}
+
+button {
+  display: block;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 8px;
+}
+.hidden {
+  display: none !important;
+}
+
+#installContainer {
+  position: absolute;
+  bottom: 1em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#installContainer button {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  font-size: 1em;
+  padding: 0.75em;
+}
+
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  height: 60px;
+  background-color: #fff;
+  transition: bottom 0.3s ease-in-out;
+  z-index: 999999;
+}
+
+.bottom-sheet.open {
+  bottom: 0;
+}
+
+.content {
+  padding: 16px;
+}
+
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
 }
